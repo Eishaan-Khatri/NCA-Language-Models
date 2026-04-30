@@ -1419,13 +1419,13 @@ def _(mo):
 def _(mo):
     mo.md(r"""
     ---
-    ## 🪞 What I Learned (The Real Story)
+    ## 🪞 What I Learned
 
-    Honestly? My first reaction to this paper was dismissal. Train a language model on... colored grids? To make it better at math? It read like one of those workshop papers that gets a polite nod and never gets cited.
+    At first, I just wrote this paper off. I thought, 'Training a language model on colored grids just to make it better at math? Really?' It felt like one of those niche workshop papers that people find interesting for a moment but don't really use in the real world.
 
-    Then I actually built the pipeline. And the spacetime diagram broke my brain a little.
+    Then, I actually built the pipeline. And seeing the spacetime diagram blew my mind a little. Look at those diagonal lines. Really look. That’s information traveling through the grid, one cell at a time.
 
-    Look at those diagonal propagation bands. Really look. That's information traveling through the grid at one cell per timestep. Now think about what an attention head does when it connects "she" in paragraph three back to "Dr. Agarwal" in paragraph one. It's routing information across distance. Same operation. Same math. The NCA just gives you that structure raw, with no Wikipedia trivia or Reddit arguments tangled in.
+    Now, think about what an AI does when it connects a word like 'she' in paragraph three back to a name in paragraph one. It’s just moving information across a distance. It’s the same operation. The same math. This model just gives you that core structure straight up, without all the messy Wikipedia facts or Reddit arguments getting in the way.
 
     Some things that surprised me while putting this together:
 
